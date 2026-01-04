@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Last.fm Dark Mode",
   "version": "1.2",
-  "description": "Turn Last.fm dark with this extension for a sleek, eye-friendly listening experience.",
+  "description": "Turn Last.fm dark with this extension for a sleek, eye-friendly listening experience. Fork of s4r1n4's extension by 14Muffinz.",
   "permissions": [],
   "host_permissions": ["*://*.last.fm/*"],
   "action": { "default_popup": "popup.html" },
