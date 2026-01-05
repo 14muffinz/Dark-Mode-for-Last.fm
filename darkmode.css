@@ -192,7 +192,7 @@ article {
 }
 
 .highcharts-container > svg > g.highcharts-series-group .highcharts-series-0 > a > rect, .highcharts-container > svg > g.highcharts-series-group .highcharts-series-1 > a > rect > a > rect .front{
-fill: #8e80ff !important;
+fill: #d92323 !important;
 opacity: 0.5;
 }
 
@@ -209,7 +209,7 @@ opacity: 0.5;
 }
 .date-range-picker-presets a:active, body:not([data-whatinput=touch]) .date-range-picker-presets a:focus, body:not([data-whatinput=touch]) .date-range-picker-presets a:hover {
   background-color: var(--main_lightgrey) !important;
-  color: var(--main_headeryellow) !important;
+  color: var(--main_fmred) !important;
 }
 
 
@@ -441,11 +441,11 @@ tr.chartlist-row--now-scrobbling {
 }
 
 .chartlist-row:hover .chartlist-count-bar-slug {
-  background-color: var(--main_midred) !important;
+  background-color: var(--main_bigred) !important;
 }
 
 .chartlist-row:hover {
-  background-color: var(--main_midred) !important;
+  background-color: var(--main_bar) !important;
 }
 
  /* Remove after line dividers */
@@ -668,9 +668,9 @@ a.listening-report-promo:hover {
 .profile-card-content {
     background: var(--main_bar) !important;
     }
-.profile-card-background {
-    content: url("https://raw.githubusercontent.com/14muffinz/Dark-Mode-for-Last.fm/2908b6304f7d35b1c1a02fb104fdf1601825f798/border.svg");
-    }
+img.profile-card-background {
+    background-color: var(--main_bar);
+}
 
 /* =========================================
    SECONDARY NAV
@@ -767,12 +767,20 @@ nav.masthead .masthead-nav-control {
 
 /* ========== Headings / Text ========== */
 h2 {
-  color: var(--main_headeryellow);
+  color: var(--main_fmred);
 }
 
 h2:first-child {
-  color: var(--main_headeryellow);
+  color: var(--main_fmred);
 }
+
+h2.date-heading {
+  color: #d5d5d5;
+    }
+
+h2.date-range-header {
+  color: #ffffff;
+    }
 
 .mimic-link {
     color: var(--main_text) !important;
@@ -1040,3 +1048,4 @@ ul.navlist-hidden-list li a:focus {
     -webkit-mask-image: url(/static/images/listening-report/v4/bg-lines-FFCACE.4268c8cee561.svg) !important;
     mask-image: url(/static/images/listening-report/v4/bg-lines-FFCACE.4268c8cee561.svg) !important;
 }
+
